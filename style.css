@@ -295,6 +295,40 @@ header {
     .home-text h2{
         font-size: 1.5rem;
     }
+    .delivery-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .delivery-text p{
+        font-size: 1.3rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.5rem;
+    }
+    .tour-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .tour-text p {
+        font-size: 0.90rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.9rem;
+    }
+    .about-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .about-text p {
+        font-size: 0.92rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.9rem;
+    }
+    .heading h1 {
+        font-size: 2rem;
+        color: var(--main-color);
+    }
 }
 @media (max-width: 991px ){
     header{
@@ -302,6 +336,40 @@ header {
     }
     section{
         padding: 50px 4%;
+    }
+    .delivery-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .delivery-text p{
+        font-size: 1.3rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.5rem;
+    }
+    .tour-text h2 {
+        font-size: 1rem;
+        color: var(--second-color);
+    }
+    .tour-text p {
+        font-size: 0.77rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.9rem;
+    }
+    .about-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .about-text p {
+        font-size: 0.83rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.9rem;
+    }
+    .heading h1 {
+        font-size: 2rem;
+        color: var(--main-color);
     }
 }
 @media (max-width: 768px ){
@@ -340,8 +408,36 @@ header {
     .home-text h2{
         font-size: 1.2rem;
     }
+    .delivery-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .delivery-text p{
+        font-size: 1.1rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.5rem;
+    }
+    .tour-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .about-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .about-text p {
+        font-size: 1.1rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.7rem;
+    }
+    .heading h1 {
+        font-size: 1.5rem;
+        color: var(--main-color);
+    }
 }
-@media (max-width: 768) {
+@media (max-width: 768px) {
     .home-text{
         padding-top: inherit;
     }
@@ -362,6 +458,40 @@ header {
     .links{
         display: flex;
         flex-direction: column;
+    }
+    .delivery-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .delivery-text p{
+        font-size: 1.1rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.5rem;
+    }
+    .tour-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .tour-text p {
+        font-size: 1rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.9rem;
+    }
+    .about-text h2 {
+        font-size: 1.5rem;
+        color: var(--second-color);
+    }
+    .about-text p {
+        font-size: 1.1rem;
+        margin: 1rem 0 1rem;
+        text-align: justify;
+        padding-bottom: 0.7rem;
+    }
+    .heading h1 {
+        font-size: 1.5rem;
+        color: var(--main-color);
     }
 }
 .creator {
